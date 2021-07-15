@@ -30,7 +30,7 @@ The experiment with the dataset <code>data/random_political_corpus_labeled.txt</
 | 6 | Using the universal dependency 'amod' | 19 |
 | 3 | Relationship 'located at' | 4 |
 
-The top 20 of frequency relationships extracted is shown below. The most of them are relationships previously defined like *job relationships* and *acronym*. Besides some automatic relationships extracted are in the Table (like number 3, 6, 7, 8 and 9).
+The top 20 frequency relationships extracted are shown below. Most of them are relationships previously defined like job relationships and acronyms. Besides some automatic relationships extracted are in the Table (like numbers 3, 6, 7, 8, and 9).
 
 | No. | Entity1 | Tag1 | Relationship | Entity2 | Tag2 | Frequency |
 | ---: | :--- | :---: | :---: | :--- | :---: | ---: |
