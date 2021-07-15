@@ -18,11 +18,14 @@ methods = {
 }
 
 # -----------------------------------------------------------------------------
-inputCorpus = '../data/political_corpus_labeled.txt'
-outputCorpus = '../data/result_extracted_relations.txt'
+# inputCorpus = 'data/political_corpus_labeled.txt'
+inputCorpus = 'data/random_political_corpus_labeled.txt'
+outputCorpus = 'data/result_extracted_relations.txt'
 # -----------------------------------------------------------------------------
 
-re = RelationExtraction(entitiesUnallowed, inputCorpus, outputCorpus, True, False, [0,10])
+# interval = [0, 10] # process 10 documents
+# re = RelationExtraction(entitiesUnallowed, inputCorpus, outputCorpus, True, False, interval)
+re = RelationExtraction(entitiesUnallowed, inputCorpus, outputCorpus, True, False, [])
 
 """
 Create new output relationshis file or reset existing file
@@ -55,10 +58,10 @@ for x in re.statistics:
 		print ( '\t{}:\t{}'.format(x, format(re.statistics[x],',d')) )
 
 print ('')
-print ('-'*60)
+print ('-'*70)
 print ('Input corpus: {}'.format(inputCorpus))
 print ('Output corpus: {}'.format(outputCorpus))
-print ('-'*60)
+print ('-'*70)
 
 end_general_time = datetime.now()
 print ('\nGeneral Time elapsed: {}\n'.format(end_general_time - start_general_time))
