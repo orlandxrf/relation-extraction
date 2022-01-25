@@ -54,3 +54,15 @@ The top 20 frequency relationships extracted are shown below. Most of them are r
 | 18 | presidente de México | TIT | *es el título de* | Andrés Manuel López Obrador | PER | 7 |
 | 19 | Movimiento de Regeneración Nacional | PEX | *es acrónimo de* | Morena | PEX | 6 |
 | 20 | presidente de Estados Unidos | TIT | *es el título de* | Donald Trump | PER | 6 |
+
+---
+
+@article{ramos2021identificacion,
+	title={Identificaci{\'o}n y extracci{\'o}n de relaciones entre entidades empleando {\'a}rboles de dependencia},
+	author={Ramos-Flores, Orlando and Pinto, David},
+	journal={Revista Colombiana de Computaci{\'o}n},
+	volume={22},
+	number={2},
+	pages={22--36},
+	year={2021}
+}
