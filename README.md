@@ -56,7 +56,10 @@ The top 20 frequency relationships extracted are shown below. Most of them are r
 | 20 | presidente de Estados Unidos | TIT | *es el título de* | Donald Trump | PER | 6 |
 
 ---
+The source paper is [here](https://orlandxrf.github.io/publications/2021_Extraccion_Relaciones.pdf)
 
+Please cite this work as:
+<pre>
 @article{ramos2021identificacion,
 	title={Identificaci{\'o}n y extracci{\'o}n de relaciones entre entidades empleando {\'a}rboles de dependencia},
 	author={Ramos-Flores, Orlando and Pinto, David},
@@ -66,3 +69,4 @@ The top 20 frequency relationships extracted are shown below. Most of them are r
 	pages={22--36},
 	year={2021}
 }
+</pre>
